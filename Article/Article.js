@@ -85,6 +85,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'We Are the Crystal Gems',
+    date: 'Feb 29th, 2',
+    firstParagraph: `Umami pitchfork semiotics blue bottle gluten-free aesthetic tumblr paleo ramps XOXO cold-pressed affogato helvetica roof party. Health goth aesthetic squid four loko, deep v cred pop-up roof party selvage offal lo-fi. Ramps wolf pabst irony, fingerstache intelligentsia franzen. Hashtag gluten-free bitters 3 wolf moon, gastropub twee schlitz taxidermy narwhal thundercats mustache. Taxidermy asymmetrical synth craft beer meh. Four loko whatever quinoa food truck irony microdosing bushwick fanny pack. `,
+
+    secondParagraph: 'Organic chartreuse whatever, scenester synth direct trade keytar flexitarian offal vegan. Hell of succulents flannel pour-over hella salvia, truffaut polaroid deep v vexillologist pug scenester. Meh fingerstache slow-carb, direct trade normcore semiotics sustainable. IPhone tbh mumblecore, ramps tilde green juice bushwick marfa 3 wolf moon fashion axe shabby chic austin. Chambray polaroid art party hell of vaporware kitsch. Food truck lumbersexual biodiesel chia tattooed.',
+
+    thirdParagraph: `Tumeric farm-to-table vegan PBR&B vinyl green juice polaroid next level succulents williamsburg biodiesel sriracha prism knausgaard chia. Trust fund pickled chambray echo park, meh authentic whatever chicharrones taxidermy. Tilde sriracha portland semiotics biodiesel normcore. Narwhal fixie banjo fanny pack tote bag yr cloud bread etsy. Roof party kinfolk paleo, slow-carb letterpress try-hard cronut pug mlkshk. Blog man braid wolf lo-fi, cray shoreditch fanny pack listicle squid.`
   }
 ];
 
@@ -140,10 +149,10 @@ function newComponent(attr) {
 
   const expButton = document.createElement('span')
   expButton.classList.add('expandButton')
-  // expButton.textContent('Keep Reading')
+  expButton.textContent ='Keep Reading'
 
   expButton.addEventListener("click", (event) => {
-    newComp.toggle('article-open')
+    newComp.classList.toggle('article-open')
   })
 
   newComp.appendChild(expButton)
