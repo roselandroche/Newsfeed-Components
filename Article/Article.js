@@ -117,24 +117,25 @@ function newComponent(attr) {
   const article = document.createElement('div')
   article.classList.add('article')
 
-  const artTitle = document.createElement('h2')
-  artTitle.textContent = attr.title
+  const title = document.createElement('h2')
+  title.textContent = attr.title
 
   const date = document.createElement('p')
   date.textContent = attr.date
   date.classList.add('date')
   
   const p1 = document.createElement('p')
-  p1.textContent = firstParagraph
+  p1.textContent = attr.firstParagraph
 
   const p2 = document.createElement('p')
-  p2.textContent = secondParagraph
+  p2.textContent = attr.secondParagraph
 
   const p3 = document.createElement('p')
-  p3.textContent = thirdParagraph
+  p3.textContent = attr.thirdParagraph
 
   const expButton = document.createElement('span')
   expButton.classList.add('expandButton')
+
   expButton.addEventListener("click", (event) => {
     newComponent.toggle('article-open')
   })
@@ -143,8 +144,11 @@ function newComponent(attr) {
   return newComponent
 }
 
-const articleSection = document.querySelector('.articles')
+const artSection = document.querySelector('.articles')
 
-data.forEach((obj) => {
-  articleSection.appendChild(newComponent())
+data.forEach((arrItem) => {
+  let newArticle = newComponent(arrItem);
+
+  artSection.appendChild(newArticle);
 })
+
