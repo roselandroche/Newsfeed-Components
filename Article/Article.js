@@ -147,8 +147,8 @@ function newComponent(attr) {
 const artSection = document.querySelector('.articles')
 
 data.forEach((arrItem) => {
-  let newArticle = newComponent(arrItem);
-
-  artSection.appendChild(newArticle);
+  let newArticle = newComponent(arrItem)
+  console.log(newArticle)
+  // artSection.appendChild(newArticle)
 })
 
