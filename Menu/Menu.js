@@ -51,12 +51,13 @@ function newItem(array) {
 }
 
 const menuButton = document.querySelector('.menu-button')
-  menuButton.addEventListener("click", (event) => {
-    const menuItself = document.querySelector('.menu')
-    menuItself.classList.toggle('menu--open')
 
-    return menuItself
-  })
+menuButton.addEventListener("click", (event) => {
+  const menuItself = document.querySelector('.menu')
+  menuItself.classList.toggle('menu--open')
+
+  return menuItself
+})
 
 const body = document.querySelector('body')
 body.appendChild(newItem(menuItems))
