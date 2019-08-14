@@ -61,3 +61,6 @@ menuButton.addEventListener("click", (event) => {
 
 const body = document.querySelector('body')
 body.appendChild(newItem(menuItems))
+
+// const menuLinks = document.querySelectorAll('li')
+// TweenMax.from(menuLinks, 1.5, {x = 300, delay:2});
