@@ -178,3 +178,4 @@ data.forEach((arrItem) => {
   artSection.appendChild(newArticle)
 })
 
+ 
