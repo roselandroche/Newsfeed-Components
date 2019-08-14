@@ -58,4 +58,5 @@ const menuButton = document.querySelector('.menu-button')
     return menuItself
   })
 
-menuButton.appendChild(newItem(menuItems))
+const body = document.querySelector('body')
+body.appendChild(newItem(menuItems))
