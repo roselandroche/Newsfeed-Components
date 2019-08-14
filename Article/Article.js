@@ -94,6 +94,15 @@ const data = [
     secondParagraph: 'Organic chartreuse whatever, scenester synth direct trade keytar flexitarian offal vegan. Hell of succulents flannel pour-over hella salvia, truffaut polaroid deep v vexillologist pug scenester. Meh fingerstache slow-carb, direct trade normcore semiotics sustainable. IPhone tbh mumblecore, ramps tilde green juice bushwick marfa 3 wolf moon fashion axe shabby chic austin. Chambray polaroid art party hell of vaporware kitsch. Food truck lumbersexual biodiesel chia tattooed.',
 
     thirdParagraph: `Tumeric farm-to-table vegan PBR&B vinyl green juice polaroid next level succulents williamsburg biodiesel sriracha prism knausgaard chia. Trust fund pickled chambray echo park, meh authentic whatever chicharrones taxidermy. Tilde sriracha portland semiotics biodiesel normcore. Narwhal fixie banjo fanny pack tote bag yr cloud bread etsy. Roof party kinfolk paleo, slow-carb letterpress try-hard cronut pug mlkshk. Blog man braid wolf lo-fi, cray shoreditch fanny pack listicle squid.`
+  },
+  {
+    title: 'Extraneous Article',
+    date: 'March 1st, 7',
+    firstParagraph: `Celiac chillwave air plant velit, yr pug blog irure live-edge four dollar toast wayfarers. Raw denim af ullamco, voluptate fam chicharrones banh mi four loko cloud bread. Leggings activated charcoal freegan, normcore affogato single-origin coffee ut velit ex kinfolk. Cliche vice yuccie nisi, pug blue bottle DIY portland you probably haven't heard of them anim pickled truffaut neutra pour-over. Cardigan reprehenderit vaporware, incididunt aute 3 wolf moon cred helvetica chillwave woke photo booth sunt offal thundercats wolf.`,
+
+    secondParagraph: `Bicycle rights shoreditch fixie tacos raclette keytar everyday carry tempor. Kinfolk wolf direct trade ennui tilde green juice. Humblebrag stumptown master cleanse DIY aesthetic. Ugh bicycle rights vice, ut echo park irony whatever typewriter DIY waistcoat hell of raclette. Viral before they sold out meditation activated charcoal chartreuse VHS pinterest lorem.`,
+
+    thirdParagraph: `Subway tile labore occupy coloring book hella la croix aliquip. Dolor cornhole PBR&B ut humblebrag post-ironic consequat, dolore flannel XOXO waistcoat in ullamco vexillologist magna. Tempor skateboard tilde laborum deserunt. Hell of in try-hard waistcoat biodiesel enim. Microdosing hell of polaroid, dolore pariatur cornhole vape consectetur stumptown readymade hashtag letterpress literally narwhal. Kickstarter wolf tempor tousled synth photo booth in four loko brunch cornhole jean shorts sriracha banh mi.`
   }
 ];
 
